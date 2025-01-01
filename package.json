@@ -1,0 +1,48 @@
+{
+  "name": "nodeinate",
+  "version": "1.0.0",
+  "description": "NodeInate is a lightweight and flexible pagination library designed to make paginating large datasets easy and efficient in Node.js applications. Whether you're building APIs or web apps, NodeInate helps you break down your data into manageable chunks with minimal setup, ensuring better performance and user experience.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodebysam/nodeinate.git"
+  },
+  "keywords": [
+    "pagination",
+    "nodejs",
+    "library",
+    "pagination-library",
+    "data-pagination",
+    "pagination-tool",
+    "node-pagination",
+    "pagination-api",
+    "node-pagination-library",
+    "node-pagination-tool",
+    "flexible-pagination",
+    "lightweight-pagination"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nodebysam/nodeinate/issues"
+  },
+  "homepage": "https://github.com/nodebysam/nodeinate#readme",
+  "dependencies": {
+    "ava": "^6.2.0"
+  },
+  "files": [
+    "lib/",
+    "index.js",
+    "README.md",
+    "config.js",
+    "test/",
+    "LICENSE"
+  ]
+}
