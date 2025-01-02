@@ -43,6 +43,7 @@
     "README.md",
     "config.js",
     "test/",
-    "LICENSE"
+    "LICENSE",
+    "CHANGELOG"
   ]
 }

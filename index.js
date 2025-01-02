@@ -59,12 +59,16 @@ const paginate = (totalItems, currentPage, options = {}) => {
         });
     }
 
+    // Index at which to start pulling data.
+    const from = (currentPage - 1) * itemsPerPage;
+
     // Prepare the pagination dataset.
     const pagination = {
         currentPage,
         totalPages,
         totalItems,
         itemsPerPage,
+        from,
         pageLinks,
         hasPrevious: currentPage > 1,
         hasNext: currentPage < totalPages,

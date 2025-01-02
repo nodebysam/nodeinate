@@ -1,0 +1,5 @@
+NodeInate Changelog
+
+v1.0.2 to v1.0.3:
+
+- Added a return value of from: the index at which to begin pulling data from the database, array, etc.
