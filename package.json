@@ -27,7 +27,7 @@
     "flexible-pagination",
     "lightweight-pagination"
   ],
-  "author": "",
+  "author": "Sam Wilcox <wilcox.sam@gmail.com>",
   "license": "GPL-3.0-only",
   "type": "commonjs",
   "bugs": {
